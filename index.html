@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weatherly Privacy Policy</title>
+    <style>
+      :root {
+        --bg: #f4efe7;
+        --surface: rgba(255, 255, 255, 0.78);
+        --text: #1d2433;
+        --muted: #5f6877;
+        --accent: #1f6feb;
+        --border: rgba(29, 36, 51, 0.12);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: Georgia, "Times New Roman", serif;
+        color: var(--text);
+        background:
+          radial-gradient(circle at top left, rgba(31, 111, 235, 0.15), transparent 30%),
+          radial-gradient(circle at bottom right, rgba(33, 150, 83, 0.12), transparent 28%),
+          linear-gradient(180deg, #f7f3eb 0%, #efe7db 100%);
+      }
+
+      .wrap {
+        max-width: 860px;
+        margin: 0 auto;
+        padding: 48px 20px 72px;
+      }
+
+      .card {
+        background: var(--surface);
+        backdrop-filter: blur(10px);
+        border: 1px solid var(--border);
+        border-radius: 24px;
+        padding: 32px;
+        box-shadow: 0 20px 60px rgba(29, 36, 51, 0.08);
+      }
+
+      h1,
+      h2 {
+        line-height: 1.15;
+      }
+
+      h1 {
+        margin: 0 0 12px;
+        font-size: clamp(2.2rem, 4vw, 3.4rem);
+      }
+
+      h2 {
+        margin-top: 32px;
+        font-size: 1.3rem;
+      }
+
+      p,
+      li {
+        font-size: 1.02rem;
+        line-height: 1.7;
+      }
+
+      .eyebrow,
+      .updated {
+        color: var(--muted);
+      }
+
+      ul {
+        padding-left: 20px;
+      }
+
+      a {
+        color: var(--accent);
+      }
+
+      @media (max-width: 640px) {
+        .wrap {
+          padding: 24px 14px 40px;
+        }
+
+        .card {
+          padding: 22px;
+          border-radius: 18px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="wrap">
+      <article class="card">
+        <p class="eyebrow">Weatherly</p>
+        <h1>Privacy Policy</h1>
+        <p class="updated">Last updated: May 26, 2026</p>
+
+        <h2>Introduction</h2>
+        <p>
+          Weatherly is a weather application that shows current conditions,
+          forecasts, and map-based weather information. This Privacy Policy
+          explains what information the app may collect, how it is used, and
+          the choices available to users.
+        </p>
+
+        <h2>Information We Collect</h2>
+        <p><strong>Location information.</strong> Weatherly may request access to your device location to show local weather, center the map, and look up place names for map selections.</p>
+        <p><strong>Account information.</strong> If sign-in is enabled in a build, Weatherly may collect your email address and authentication credentials entered during sign-in. Authentication is handled through Firebase Authentication.</p>
+        <p><strong>Search and map inputs.</strong> City searches, selected coordinates, and related request data may be sent to third-party weather and geocoding providers to return results.</p>
+        <p><strong>Local session storage.</strong> Weatherly may store a sign-in session token on your device using local storage or AsyncStorage so you can remain signed in between app launches.</p>
+
+        <h2>How We Use Information</h2>
+        <ul>
+          <li>Provide current weather conditions and forecasts.</li>
+          <li>Show weather for your current or selected location.</li>
+          <li>Support place search and map features.</li>
+          <li>Authenticate users when login is enabled.</li>
+          <li>Maintain local sessions on the device.</li>
+          <li>Improve reliability, security, and performance.</li>
+        </ul>
+
+        <h2>Third-Party Services</h2>
+        <p>Weatherly may use third-party services that process data under their own terms and privacy policies, including Firebase Authentication, Open-Meteo geocoding services, and Tomorrow.io weather services.</p>
+
+        <h2>Data Sharing</h2>
+        <p>Weatherly does not sell personal information. Information may be shared with service providers that operate app features, when required by law, or to protect rights, safety, and prevent fraud or abuse.</p>
+
+        <h2>Data Retention</h2>
+        <p>Information is retained only as long as necessary for app functionality, legal obligations, dispute resolution, and enforcement of agreements. Locally stored session data can be removed by signing out or uninstalling the app.</p>
+
+        <h2>Your Choices</h2>
+        <ul>
+          <li>Deny or revoke location permission in device settings.</li>
+          <li>Avoid sign-in features if you do not want to provide account information.</li>
+          <li>Clear local app data by signing out, clearing app storage, or uninstalling the app.</li>
+        </ul>
+
+        <h2>Children's Privacy</h2>
+        <p>Weatherly is not intended for children under 13 and is not knowingly designed to collect personal information from children under 13.</p>
+
+        <h2>Security</h2>
+        <p>Reasonable steps are taken to protect information, but no method of transmission or storage is completely secure.</p>
+
+        <h2>International Users</h2>
+        <p>Information may be processed in countries other than your own depending on the location of service providers and infrastructure.</p>
+
+        <h2>Changes to This Policy</h2>
+        <p>Updates will be reflected by revising the "Last updated" date on this page.</p>
+
+        <h2>Contact</h2>
+        <p>
+          Questions about this Privacy Policy can be directed through the GitHub
+          repository:
+          <a href="https://github.com/VismayPanchal/wetherly-privacy-policy">github.com/VismayPanchal/wetherly-privacy-policy</a>
+        </p>
+
+        <h2>Disclaimer</h2>
+        <p>This document is a general project privacy policy template based on the app's current code behavior and third-party integrations. It is not legal advice.</p>
+      </article>
+    </main>
+  </body>
+</html>
